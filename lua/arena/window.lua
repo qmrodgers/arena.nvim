@@ -42,7 +42,7 @@ function M:mount(bufs)
     relative = "editor",
     row = ((vim.o.lines - config.window.height) / 2) - 1,
     col = (vim.o.columns - config.window.width) / 2,
-    width = config.window.width,
+    width = 900,
     height = config.window.height,
     title = "Arena",
     title_pos = "center",
